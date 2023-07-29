@@ -4,7 +4,7 @@
     "switchLocale": "",
     "deployWiki": "部署自己的网站？",
     "description1": "简单描述工作内容 ",
-    "description2": "帮你生成完整周报",
+    "description2": "小徐学长周报生成",
     "slogan": "一写周报就头大？我来帮你！",
     "step0": "粘贴你的 OpenAI API Key",
     "openaiApiKeyPlaceholder": "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
