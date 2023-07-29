@@ -1,27 +1,27 @@
-# [Weekly Report](https://weeklyreport.avemaria.fun/)
+# [小徐学长] ( https://weeklyreport.avemaria.fun/ ) 
 
 
-This project generate weekly report with simple sentence for you using AI.
+该项目使用人工智能为您生成带有简单句子的每周报告。
 
-[![Weekly Report](./public/screenshot.jpg)](https://weeklyreport.avemaria.fun/zh)
+[ ![小徐学长] ( ./public/screenshot.jpg ) ] ( https://weeklyreport.avemaria.fun/zh )
 
-## How it works
+##它是如何工作的
 
-This project uses the [OpenAI GPT-3 API](https://openai.com/api/) (specifically, text-davinci-003) and [Vercel Edge functions](https://vercel.com/features/edge-functions) with streaming. It constructs a prompt based on the form and user input, sends it to the GPT-3 API via a Vercel Edge function, then streams the response back to the application.
+该项目使用[ OpenAI GPT-3 API ] ( https://openai.com/api/ )（具体来说，text-davinci-003）和[ Vercel Edge 函数] ( https://vercel.com/features/edge -functions ）与流式传输。它根据表单和用户输入构建提示，通过 Vercel Edge 函数将其发送到 GPT-3 API，然后将响应流式传输回应用程序。
 
-## Running Locally
+##本地运行
 
-After cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys) to make an account and put your API key in a file called `.env`.
+克隆存储库后，前往[ OpenAI ] ( https://beta.openai.com/account/api-keys )创建一个帐户，并将您的 API 密钥放入名为` .env `的文件中。
 
-Then, run the application in the command line and it will be available at `http://localhost:3000`.
+然后，在命令行中运行该应用程序，它将在“ http://localhost:3000 ”处可用。
 
-```bash
-npm run dev
-```
+``重击
+npm 运行开发
+````
 
-## One-Click Deploy
+##一键部署
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+使用[ Vercel ] ( https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples )部署示例：
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://vercel.com/new/clone?repository-url=https://github.com/guaguaguaxia/weekly_report&env=OPENAI_API_KEY,NEXT_PUBLIC_USE_USER_KEY&project-name=weekly_report&repo-name=weekly_report)
 
