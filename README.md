@@ -1,24 +1,25 @@
-# [Weekly Report](https://weeklyreport.avemaria.fun/)
+# 小徐学长] ( https://weeklyreport.avemaria.fun/ ) 
 
-## [English](README_EN.md)
+## [中文] ( README_EN.md ) 
 
-简单描述工作内容，帮你生成完整周报
+小徐学长周报系统
+简单描述工作内容，帮助生成完整周报
 
-[![Weekly Report](./public/screenshot.jpg)](https://weeklyreport.avemaria.fun/zh)
+[ ![小徐学长] ( ./public/screenshot.jpg ) ] ( https://weeklyreport.avemaria.fun/zh )
 
-## 这个项目是如何工作的
-这个项目主要使用了 [OpenAI GPT-3.5 API](https://platform.openai.com/docs/introduction) 和 [Vercel Edge functions](https://vercel.com/features/edge-functions)。它根据用户输入构建一个 Prompt，通过 Vercel Edge 函数将其发送到 GPT-3.5 API，然后将响应流传回应用程序。
+##这个项目是如何工作的
+该项目主要使用了[ OpenAI GPT-3.5 API ] ( https://platform.openai.com/docs/introduction )和[ Vercel Edge 函数] ( https://vercel.com/features/edge-functions )。根据用户输入构建一个提示，通过 Vercel Edge 函数将其发送到 GPT-3.5 API，然后将响应响应回应用程序。
 
-## 在本地运行
+##在本地运行
 
-**由于众所周知的原因，OpenAI API 的域名 api.openai.com 已无法在大陆网络环境下访问，本地调试需要自己想办法。如果你有好的想法欢迎提PR**
+**由于昂贵的原因，OpenAI API 的域名 api.openai.com 已无法在大陆网络环境下访问，本地调试需要自己想办法。如果您有好的想法欢迎提PR **
 
-clone 此 repo，去 [OpenAI](https://beta.openai.com/account/api-keys) 注册一个账号，拿到 API key，放到 `.env` 文件。本地文件 `.env.example` 要改成 `.env`。
+克隆此仓库，去[ OpenAI ] ( https://beta.openai.com/account/api-keys )注册一个账号，获取API key，放置` .env `文件。本地文件` .env.example `要改成` .env`。
 
 
-确保你本地的 npm 命令生效，执行以下命令
-```bash
-npm install
+确保你本地的npm命令生效，执行以下命令
+``重击
+npm 安装
 npm run dev
 ```
 打开 `http://localhost:3000`
